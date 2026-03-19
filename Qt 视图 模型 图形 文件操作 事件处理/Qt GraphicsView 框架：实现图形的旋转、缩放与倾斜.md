@@ -5,13 +5,13 @@
 ## 一、GraphicsView 框架核心三元素
 
 GraphicsView 框架的核心是**场景（QGraphicsScene）、视图（QGraphicsView）、图元（QGraphicsItem）** 这三大组件，三者分工明确，协同工作。Qt 开发当中，绘图继承 QWidget 通过重写 paintEvent 虚函数来处理。
-GraphicsView 绘图架构提供 2D 图形项目交互界面开发<img src="D:\DownLoad\e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpg~tplv-a9rns2rl98-resize-crop_244_750_1222_1306_978_556.jpeg" alt="e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpg~tplv-a9rns2rl98-resize-crop_244_750_1222_1306_978_556" style="zoom:67%;" />
+GraphicsView 绘图架构提供 2D 图形项目交互界面开发![e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpg~tplv-a9rns2rl98-resize-crop_244_750_1222_1306_978_556](assets/e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpgtplv-a9rns2rl98-resize-crop_244_750_1222_1306_978_556.jpeg)
 
 1. **QGraphicsScene（场景）**
 
    - 场景是图元的容器，本身不可见。它的坐标系以中心为原点 (0,0)。
 
-   - 主要负责管理所有添加到其中的图元，提供图元的添加、删除、查找等功能。<img src="D:\DownLoad\e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpg~tplv-a9rns2rl98-resize-crop_252_1584_1078_2152_826_568.jpeg" alt="e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpg~tplv-a9rns2rl98-resize-crop_252_1584_1078_2152_826_568" style="zoom: 50%;" />
+   - 主要负责管理所有添加到其中的图元，提供图元的添加、删除、查找等功能。![e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpg~tplv-a9rns2rl98-resize-crop_252_1584_1078_2152_826_568](assets/e5fd8ed8586e45679ac609709023bf79.pdf_0_2400.jpgtplv-a9rns2rl98-resize-crop_252_1584_1078_2152_826_568.jpeg)
 
      简要理解作用：**图元的 “容器 + 管理中心”**
 
@@ -27,7 +27,7 @@ GraphicsView 绘图架构提供 2D 图形项目交互界面开发<img src="D:\Do
 
    - 视图继承自 QWidget，坐标系以窗口左上角为原点 (0,0)。
 
-   - 它的作用是渲染显示场景中的图元，还支持 OpenGL 渲染来提升性能。<img src="D:\DownLoad\e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpg~tplv-a9rns2rl98-resize-crop_288_604_1122_1134_834_530.jpeg" alt="e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpg~tplv-a9rns2rl98-resize-crop_288_604_1122_1134_834_530" style="zoom:50%;" />
+   - 它的作用是渲染显示场景中的图元，还支持 OpenGL 渲染来提升性能。![e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpg~tplv-a9rns2rl98-resize-crop_288_604_1122_1134_834_530](assets/e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpgtplv-a9rns2rl98-resize-crop_288_604_1122_1134_834_530.jpeg)
 
      简要理解作用：**场景的 “显示器 + 操作窗口”**
 
@@ -43,7 +43,7 @@ GraphicsView 绘图架构提供 2D 图形项目交互界面开发<img src="D:\Do
 
    - 图元是场景中可绘制的元素，是所有自定义图形项的基类。
 
-   - 我们可以通过继承它来实现自定义的图形元素，比如本次案例中的图片图元。<img src="D:\DownLoad\e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpg~tplv-a9rns2rl98-resize-crop_240_1580_1636_2120_1396_540 (1).jpeg" alt="e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpg~tplv-a9rns2rl98-resize-crop_240_1580_1636_2120_1396_540 (1)" style="zoom:50%;" />
+   - 我们可以通过继承它来实现自定义的图形元素，比如本次案例中的图片图元。![e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpg~tplv-a9rns2rl98-resize-crop_240_1580_1636_2120_1396_540 (1)](assets/e5fd8ed8586e45679ac609709023bf79.pdf_1_2400.jpgtplv-a9rns2rl98-resize-crop_240_1580_1636_2120_1396_540 (1).jpeg)
 
      简要理解：作用就是
 
@@ -395,7 +395,7 @@ void MainWidget::CreateControlFrameFunc()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260130183152421.png" alt="image-20260130183152421" style="zoom:67%;" />
+![image-20260130183152421](assets/image-20260130183152421.png)
 
 ## 三、功能实现原理
 

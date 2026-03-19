@@ -6,7 +6,7 @@
 
 QSplitter 是用于分割界面的容器控件，核心优势是支持用户手动调整子区域大小，比固定布局更具交互性。
 
-<img src="D:\DownLoad\文件信息 (1).png" alt="文件信息 (1)" style="zoom: 25%;" />
+![文件信息 (1)](assets/文件信息 (1).png)
 
 ### 1. 核心基础信息
 
@@ -69,9 +69,7 @@ MainWindow::~MainWindow()
 {}
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126220401999.png" alt="image-20260126220401999" style="zoom: 50%;" />
-
-
+![image-20260126220401999](assets/image-20260126220401999.png)
 
 
 
@@ -156,7 +154,7 @@ void MainWindow::DockWidgetFunc()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260127010140658.png" alt="image-20260127010140658" style="zoom:50%;" />
+![image-20260127010140658](assets/image-20260127010140658.png)
 
 
 

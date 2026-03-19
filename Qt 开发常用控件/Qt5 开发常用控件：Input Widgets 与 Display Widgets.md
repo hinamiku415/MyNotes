@@ -2,7 +2,7 @@
 
 ## 一、输入组控件（Input Widgets）
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126155409441.png" alt="image-20260126155409441" style="zoom:67%;" />
+<img src="assets/image-20260126155409441.png" alt="image-20260126155409441" style="zoom:67%;" />
 
 |     控件英文名称      |  控件中文名称  |                         核心功能描述                         |
 | :-------------------: | :------------: | :----------------------------------------------------------: |
@@ -322,7 +322,7 @@ void MainWindow::keyseqeditChanged(const QKeySequence &key)
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126161837402.png" alt="image-20260126161837402" style="zoom:50%;" />
+![image-20260126161837402](assets/image-20260126161837402.png)
 
 
 
@@ -564,7 +564,7 @@ void MainWindow::keyseqeditChanged(const QKeySequence &key)
 
 ## 二、显示组控件（Display Widgets）
 
-![image-20260126163245948](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126163245948.png)
+![image-20260126163245948](assets/image-20260126163245948.png)
 
 |  控件英文名称   |    控件中文名称     |                         核心功能描述                         |
 | :-------------: | :-----------------: | :----------------------------------------------------------: |
@@ -581,7 +581,7 @@ void MainWindow::keyseqeditChanged(const QKeySequence &key)
 
 提前在UI文件布局一下：
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126171026228.png" alt="image-20260126171026228" style="zoom:50%;" />
+<img src="assets/image-20260126171026228.png" alt="image-20260126171026228" style="zoom:50%;" />
 
 ### 案例代码
 
@@ -780,7 +780,7 @@ void Widget::on_timerout()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126165313147.png" alt="image-20260126165313147" style="zoom:50%;" />
+![image-20260126165313147](assets/image-20260126165313147.png)
 
 #### 解释
 

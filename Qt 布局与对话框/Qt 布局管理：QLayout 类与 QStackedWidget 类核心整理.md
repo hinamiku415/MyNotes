@@ -8,7 +8,7 @@ QLayout 是所有布局管理器的基类，定义了布局管理的基础接口
 
 ### 1. 类继承关系
 
-![image](https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc_gen_image/848cd84cb63f4ba9a39de87e69969f69.jpeg~tplv-a9rns2rl98-downsize_watermark_1_6_b.png?lk3s=8e244e95&rcl=202601261945424A5CEBE323B03E162D57&rrcfp=827586d3&x-expires=2084787964&x-signature=idSBnQFXHHxvjCCA1b1%2FEYOYMLI%3D)
+![848cd84cb63f4ba9a39de87e69969f69.jpeg~tplv-a9rns2rl98-downsize_watermark_1_6_b](assets/848cd84cb63f4ba9a39de87e69969f69.jpeg~tplv-a9rns2rl98-downsize_watermark_1_6_b.png)
 
 ```json
 QLayout（基类）
@@ -184,7 +184,7 @@ Dialog::~Dialog()
 {}
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126195937564.png" alt="image-20260126195937564" style="zoom:67%;" />
+![image-20260126195937564](assets/image-20260126195937564.png)
 
 ------
 
@@ -305,7 +305,7 @@ stackedDlg::~stackedDlg()
 {}
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126213258301.png" alt="image-20260126213258301" style="zoom: 67%;" />
+![image-20260126213258301](assets/image-20260126213258301.png)
 
 ------
 

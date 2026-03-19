@@ -217,7 +217,7 @@ void Dialog::displayaboutqtMsg()
 }
 ```
 
-<img src="D:\DownLoad\使用 PDF 写博客笔记.png" alt="使用 PDF 写博客笔记" style="zoom:25%;" />
+![使用 PDF 写博客笔记](assets/使用 PDF 写博客笔记.png)
 
 **使用场景**：
 

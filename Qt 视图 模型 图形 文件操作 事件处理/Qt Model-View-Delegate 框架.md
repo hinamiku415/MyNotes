@@ -20,7 +20,7 @@
 
 框架的核心是 Model（模型）、View（视图）、Delegate（代理）三个组件，它们分工明确、通过信号槽联动。
 
-![image-20260204184927213](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260204184927213.png)
+![image-20260204184927213](assets/image-20260204184927213.png)
 
 ### 1. Model（模型）：数据的 "管理者"
 
@@ -162,7 +162,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260204175402397.png" alt="image-20260204175402397" style="zoom:67%;" />
+![image-20260204175402397](assets/image-20260204175402397.png)
 
 ### 代码实战2
 
@@ -321,7 +321,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260204183923640.png" alt="image-20260204183923640" style="zoom:67%;" />
+![image-20260204183923640](assets/image-20260204183923640.png)
 
 **MVC 设计模式**：Qt 的 Model/View 架构中，`ModelExtended`（模型）负责存储和提供数据，`QTableView`（视图）负责展示数据，两者解耦（修改数据无需改视图，修改视图无需改数据）。
 

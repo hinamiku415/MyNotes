@@ -17,7 +17,7 @@
 
 Item Views 系列控件需配合模型（如 QStandardItemModel、QStringListModel 等）使用，核心控件包括 **List View、Tree View、Table View** 等。
 
-![image-20260125230559444](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125230559444.png)
+![image-20260125230559444](assets/image-20260125230559444.png)
 
 ### 1. List View（清单视图）
 
@@ -102,7 +102,7 @@ void Widget::SlotClickedFunc(const QModelIndex &index)
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125231050855.png" alt="image-20260125231050855" style="zoom:67%;" />
+![image-20260125231050855](assets/image-20260125231050855.png)
 
 **补充：**
 
@@ -222,7 +222,7 @@ void MainWindow::InitTreeViewFunc()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125233132418.png" alt="image-20260125233132418" style="zoom:67%;" />
+![image-20260125233132418](assets/image-20260125233132418.png)
 
 
 
@@ -288,7 +288,7 @@ void MainWindow::InitTableViewFunc()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125235628736.png" alt="image-20260125235628736" style="zoom:67%;" />
+![image-20260125235628736](assets/image-20260125235628736.png)
 
 
 
@@ -296,7 +296,7 @@ void MainWindow::InitTableViewFunc()
 
 **Item Widgets 系列控件无需单独创建模型，数据直接存储在控件的 Item 中**，使用更简洁，核心控件包括 List Widget、Tree Widget、Table Widget。
 
-![image-20260126155525634](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126155525634.png)
+![image-20260126155525634](assets/image-20260126155525634.png)
 
 ### 1. List Widget（清单控件）
 
@@ -328,7 +328,7 @@ Widget::Widget(QWidget *parent)
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126143431946.png" alt="image-20260126143431946" style="zoom:67%;" />
+![image-20260126143431946](assets/image-20260126143431946.png)
 
 
 
@@ -383,7 +383,7 @@ Widget::Widget(QWidget *parent)
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126144539902.png" alt="image-20260126144539902" style="zoom:67%;" />
+![image-20260126144539902](assets/image-20260126144539902.png)
 
 
 
@@ -430,7 +430,7 @@ Widget::Widget(QWidget *parent)
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260126145921157.png" alt="image-20260126145921157" style="zoom:67%;" />
+![image-20260126145921157](assets/image-20260126145921157.png)
 
 
 

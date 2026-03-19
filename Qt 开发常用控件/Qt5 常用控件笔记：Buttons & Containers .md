@@ -6,7 +6,7 @@
 
 命令按钮组是用户与程序交互的直接入口，每种按钮都有其特定的使用场景和交互逻辑，以下是常用按钮的详细说明：
 
-![image-20260124185243937](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260124185243937.png)
+![image-20260124185243937](assets/image-20260124185243937.png)
 
 | 控件名称            | 中文释义     |                      核心功能与使用场景                      |
 | :------------------ | :----------- | :----------------------------------------------------------: |
@@ -106,7 +106,7 @@ void MainWindow::pushbutton2_clicked()
 }
 ```
 
-![image-20260124195203888](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260124195203888.png)
+![image-20260124195203888](assets/image-20260124195203888.png)
 
 ### Tool Button案例：
 
@@ -178,7 +178,7 @@ MainWindow::~MainWindow()
 {}
 ```
 
-![image-20260124234908406](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260124234908406.png)
+![image-20260124234908406](assets/image-20260124234908406.png)
 
 ### Radio Button案例：
 
@@ -244,7 +244,7 @@ MainWindow::~MainWindow()
 {}
 ```
 
-![image-20260124235653885](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260124235653885.png)
+![image-20260124235653885](assets/image-20260124235653885.png)
 
 ### Check Box案例：
 
@@ -336,7 +336,7 @@ void MainWindow::checkboxstate(int istate)
 }
 ```
 
-![image-20260125002117505](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125002117505.png)
+![image-20260125002117505](assets/image-20260125002117505.png)
 
 ### Radio Button案例：
 
@@ -408,7 +408,7 @@ void MainWindow::clbClicked()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125003327468.png" alt="image-20260125003327468" style="zoom: 67%;" />
+![image-20260125003327468](assets/image-20260125003327468.png)
 
 ### Dialog Button Box案例：
 
@@ -501,9 +501,9 @@ void MainWindow::dbbpbClicked(QAbstractButton *bt)
 }
 ```
 
-![image-20260125004217006](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125004217006.png)
+![image-20260125004217006](assets/image-20260125004217006.png)
 
-![image-20260125004247562](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125004247562.png)
+![image-20260125004247562](assets/image-20260125004247562.png)
 
 
 
@@ -511,7 +511,7 @@ void MainWindow::dbbpbClicked(QAbstractButton *bt)
 
 容器控件的核心作用是 “承载和管理其他控件”，通过容器可实现界面的分层、分组、滚动、切换等功能，让复杂界面结构更清晰，以下是常用容器的详细说明（粗体代表常用）：
 
-![image-20260124185957802](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260124185957802.png)
+![image-20260124185957802](assets/image-20260124185957802.png)
 
 |    控件名称     |     中文释义     |                      核心功能与使用场景                      |
 | :-------------: | :--------------: | :----------------------------------------------------------: |
@@ -700,7 +700,7 @@ Widget::~Widget()
 }
 ```
 
-![image-20260125011400522](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125011400522.png)
+![image-20260125011400522](assets/image-20260125011400522.png)
 
 ### **Scroll Area**案例
 
@@ -770,7 +770,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-![image-20260125213747030](C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125213747030.png)
+![image-20260125213747030](assets/image-20260125213747030.png)
 
 
 
@@ -900,7 +900,7 @@ void Widget::MsgCommit()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125215445699.png" alt="image-20260125215445699" style="zoom: 67%;" />
+![image-20260125215445699](assets/image-20260125215445699.png)
 
 ### **Frame**案例
 
@@ -982,7 +982,7 @@ Widget::~Widget()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125221432103.png" alt="image-20260125221432103" style="zoom:67%;" />
+![image-20260125221432103](assets/image-20260125221432103.png)
 
 
 
@@ -1106,7 +1106,7 @@ MainWindow::~MainWindow()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260125224941948.png" alt="image-20260125224941948" style="zoom:67%;" />
+![image-20260125224941948](assets/image-20260125224941948.png)
 
 
 

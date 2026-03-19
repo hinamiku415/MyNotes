@@ -179,4 +179,4 @@ void Dialog::modifystudentsex()
 }
 ```
 
-<img src="C:\Users\张超然\AppData\Roaming\Typora\typora-user-images\image-20260128185343342.png" alt="image-20260128185343342" style="zoom:67%;" />
+![image-20260128185343342](assets/image-20260128185343342.png)

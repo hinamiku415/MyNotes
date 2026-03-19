@@ -115,5 +115,5 @@ void Dialog::dispcolorFunc()
 }
 ```
 
-<img src="D:\DownLoad\新对话.png" alt="新对话" style="zoom:25%;" />
+![新对话](assets/新对话.png)
 
